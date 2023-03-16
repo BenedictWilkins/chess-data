@@ -1,0 +1,31 @@
+
+    
+
+    // TODO rename this to "Chess" and allow boards to be changed
+    // TODO add options to create pieces at locations on the board
+    // TODO allow multiple "Chess" to be created (not in each others view?) so that we can collect data in parallel    
+    // TODO gather more piece / board geometry and set up prefabs
+
+    // DATA AUGMENTATION
+    // TODO lighting
+    // TODO background
+    // TODO Random positions
+    // TODO add different piece size ratios 
+    // TODO add position offset options (one for each location on the board?)
+    // TODO add textures/colors to pieces
+    // TODO camera positions
+
+    // SUPERVISION
+    // TODO create an shader that flat renders the pieces in different colors, we can try and do segmentation?
+    // TODO add labelling to the board positions
+    // TODO add a means to save images/labels to disk
+
+    // TESTING
+    // TODO gather some pictures of real chess boards to use as part of a validation set
+    // TODO generate a validation sets with:
+        // - unseen backgrounds
+        // - unseen board/piece textures
+        // - unseen piece geometry
+
+    // IMPORTANT 
+    // move board width/height to a script for boards, then settings can be saved for each board!
